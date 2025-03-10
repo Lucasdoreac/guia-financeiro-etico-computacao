@@ -1,3 +1,8 @@
+---
+layout: default
+title: Perspectivas Financeiras por Área
+---
+
 # Perspectivas Financeiras por Área de Computação
 
 Este documento apresenta uma análise detalhada sobre as perspectivas financeiras para diferentes especialidades em computação no mercado brasileiro, com dados atualizados para 2025.
@@ -160,3 +165,7 @@ Para estudantes iniciando a graduação hoje, recomenda-se:
 6. **Investimento em network**: Comunidades profissionais, eventos e contribuições em projetos open-source são formas de construir uma rede que frequentemente gera as melhores oportunidades.
 
 _Nota: Os valores apresentados refletem o mercado brasileiro em 2025, considerando profissionais com formação completa e atuando em grandes centros urbanos. Valores podem variar conforme região, porte da empresa e qualificações específicas._
+
+---
+
+[Voltar para Financeiro]({{ '/financeiro/' | relative_url }}) | [Início]({{ '/' | relative_url }})
