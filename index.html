@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Financeiro e Ético para Carreiras em Computação</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Guia Financeiro e Ético para Carreiras em Computação</h1>
+        <p>Tome decisões de carreira informadas considerando aspectos financeiros e éticos</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home" class="active">Início</a></li>
+            <li><a href="#areas">Áreas da Computação</a></li>
+            <li><a href="#financeiro">Perspectivas Financeiras</a></li>
+            <li><a href="#etico">Considerações Éticas</a></li>
+            <li><a href="#tendencias">Tendências</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Seção Inicial -->
+        <section id="home" class="active-section">
+            <div class="hero">
+                <h2>Planeje sua carreira em computação</h2>
+                <p>Um recurso completo para estudantes e profissionais que desejam tomar decisões mais informadas sobre seu futuro na área de tecnologia.</p>
+                <div class="cta-buttons">
+                    <a href="#areas" class="cta-button">Explorar Áreas</a>
+                    <a href="#financeiro" class="cta-button">Ver Perspectivas Financeiras</a>
+                </div>
+            </div>
+
+            <div class="overview">
+                <h3>O que você vai encontrar neste guia</h3>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="icon">💰</div>
+                        <h4>Perspectivas Financeiras</h4>
+                        <p>Dados atualizados sobre salários, freelance e oportunidades em startups para diferentes áreas da computação.</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon">⚖️</div>
+                        <h4>Considerações Éticas</h4>
+                        <p>Reflexões sobre impactos sociais, responsabilidade profissional e desenvolvimento tecnológico sustentável.</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon">📈</div>
+                        <h4>Tendências de Mercado</h4>
+                        <p>Análises sobre as áreas em alta, tecnologias emergentes e projeções para os próximos anos.</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon">🧭</div>
+                        <h4>Caminhos de Carreira</h4>
+                        <p>Diferentes trajetórias possíveis, desde grandes empresas até cooperativas e empreendedorismo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Áreas da Computação -->
+        <section id="areas" class="section">
+            <h2>Áreas da Computação</h2>
+            <p class="intro-text">Explore as diferentes especialidades em computação e descubra qual combina mais com seu perfil.</p>
+            
+            <div class="areas-grid">
+                <div class="area-item" data-area="ia">
+                    <h3>Inteligência Artificial e Machine Learning</h3>
+                    <p>Desenvolvimento de sistemas que podem aprender e tomar decisões baseadas em dados.</p>
+                    <a href="#" class="more-info" data-target="ia-info">Saiba mais</a>
+                </div>
+                <div class="area-item" data-area="web">
+                    <h3>Desenvolvimento Web/Mobile</h3>
+                    <p>Criação de aplicativos, sites e sistemas para web e dispositivos móveis.</p>
+                    <a href="#" class="more-info" data-target="web-info">Saiba mais</a>
+                </div>
+                <div class="area-item" data-area="cyber">
+                    <h3>Cibersegurança</h3>
+                    <p>Proteção de sistemas, redes e dados contra ameaças digitais e ataques cibernéticos.</p>
+                    <a href="#" class="more-info" data-target="cyber-info">Saiba mais</a>
+                </div>
+                <div class="area-item" data-area="data">
+                    <h3>Ciência de Dados e Analytics</h3>
+                    <p>Análise de grandes volumes de dados para extrair insights e apoiar decisões.</p>
+                    <a href="#" class="more-info" data-target="data-info">Saiba mais</a>
+                </div>
+                <div class="area-item" data-area="devops">
+                    <h3>DevOps e Infraestrutura Cloud</h3>
+                    <p>Integração entre desenvolvimento e operações, automatização e gestão de infraestrutura.</p>
+                    <a href="#" class="more-info" data-target="devops-info">Saiba mais</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Perspectivas Financeiras -->
+        <section id="financeiro" class="section">
+            <h2>Perspectivas Financeiras</h2>
+            <p class="intro-text">Dados atualizados sobre remuneração nas diferentes áreas da computação no mercado brasileiro.</p>
+            
+            <div class="filter-container">
+                <label for="area-filter">Filtrar por área:</label>
+                <select id="area-filter">
+                    <option value="all">Todas as áreas</option>
+                    <option value="ia">Inteligência Artificial</option>
+                    <option value="web">Desenvolvimento Web/Mobile</option>
+                    <option value="cyber">Cibersegurança</option>
+                    <option value="data">Ciência de Dados</option>
+                    <option value="devops">DevOps e Cloud</option>
+                </select>
+            </div>
+            
+            <div class="financial-tables" id="financial-content">
+                <!-- O conteúdo das tabelas será carregado via JavaScript -->
+            </div>
+        </section>
+
+        <!-- Seção de Considerações Éticas -->
+        <section id="etico" class="section">
+            <h2>Considerações Éticas</h2>
+            <p class="intro-text">Reflexões sobre o impacto social e a responsabilidade profissional na área de tecnologia.</p>
+            
+            <!-- Placeholder para conteúdo ético -->
+            <div class="ethical-content">
+                <p>Em desenvolvimento. Esta seção abordará temas como:</p>
+                <ul>
+                    <li>Vieses em algoritmos e sistemas de IA</li>
+                    <li>Privacidade e proteção de dados</li>
+                    <li>Inclusão e acessibilidade digital</li>
+                    <li>Sustentabilidade ambiental em TI</li>
+                    <li>Transparência e responsabilidade</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Seção de Tendências -->
+        <section id="tendencias" class="section">
+            <h2>Tendências 2025-2026</h2>
+            <p class="intro-text">Áreas em alta, tecnologias emergentes e projeções para o mercado de tecnologia.</p>
+            
+            <div class="trends-container">
+                <div class="trend-section">
+                    <h3>Áreas em Alta (Crescimento Salarial Projetado)</h3>
+                    <ul class="trend-list">
+                        <li><strong>IA Responsável e Ética</strong>: +25% ano</li>
+                        <li><strong>Cibersegurança para Infraestrutura Crítica</strong>: +22% ano</li>
+                        <li><strong>DevOps com especialização em Ambientes Multi-cloud</strong>: +18% ano</li>
+                        <li><strong>Desenvolvimento Blockchain/Web3</strong>: +20% ano</li>
+                        <li><strong>Ciência de Dados aplicada à Sustentabilidade</strong>: +15% ano</li>
+                    </ul>
+                </div>
+                
+                <div class="trend-section">
+                    <h3>Áreas com Maior Potencial para Freelancers</h3>
+                    <ul class="trend-list">
+                        <li><strong>Desenvolvimento Mobile Especializado</strong>: Alta demanda por apps de saúde e fintech</li>
+                        <li><strong>Implementação de IA em PMEs</strong>: Democratização das tecnologias abre mercado</li>
+                        <li><strong>Segurança para Pequenas Empresas</strong>: Aumento de 200% em ataques criou nicho lucrativo</li>
+                        <li><strong>Desenvolvimento Frontend com Acessibilidade</strong>: Legislação mais rígida gerando demanda</li>
+                    </ul>
+                </div>
+                
+                <div class="trend-section">
+                    <h3>Tendências Observadas</h3>
+                    <ul class="trend-list">
+                        <li><strong>Localização</strong>: Trabalho remoto internacional continua subindo (35% dos devs brasileiros já têm clientes estrangeiros)</li>
+                        <li><strong>Especialização</strong>: Profissionais com domínio vertical (ex: IA para saúde) ganham 40% mais que generalistas</li>
+                        <li><strong>Certificações</strong>: AWS, Azure e Google Cloud aumentam salário em 20-30% em média</li>
+                        <li><strong>Linguagens emergentes</strong>: Profissionais de Rust, Julia e Elixir recebem 25% acima da média para senioridades equivalentes</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Recursos -->
+        <section id="recursos" class="section">
+            <h2>Recursos</h2>
+            <p class="intro-text">Materiais complementares e referências para aprofundar seus conhecimentos.</p>
+            
+            <!-- Placeholder para recursos -->
+            <div class="resources-container">
+                <p>Em desenvolvimento. Esta seção incluirá:</p>
+                <ul>
+                    <li>Livros recomendados</li>
+                    <li>Cursos online</li>
+                    <li>Comunidades e eventos</li>
+                    <li>Ferramentas e tecnologias</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Guia Financeiro e Ético para Carreiras em Computação &copy; 2025</p>
+        <p>
+            <a href="https://github.com/Lucasdoreac/guia-financeiro-etico-computacao" target="_blank">Ver no GitHub</a> | 
+            <a href="https://github.com/Lucasdoreac/teste-vocacional-computacao" target="_blank">Teste Vocacional para Computação</a>
+        </p>
+    </footer>
+</body>
+</html>
