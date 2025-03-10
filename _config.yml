@@ -1,0 +1,8 @@
+
+theme: jekyll-theme-cayman
+title: Guia Financeiro e Ético para Carreiras em Computação
+description: Um recurso completo para estudantes de computação que desejam tomar decisões de carreira mais informadas, considerando tanto aspectos financeiros quanto éticos.
+baseurl: "/guia-financeiro-etico-computacao"
+url: "https://lucasdoreac.github.io"
+plugins:
+  - jekyll-seo-tag
