@@ -1,3 +1,8 @@
+---
+layout: default
+title: IA Responsável - Guia para Estudantes
+---
+
 # IA Responsável: Guia para Estudantes de Computação
 
 ## Introdução
@@ -167,3 +172,7 @@ O campo da "IA Responsável" está crescendo rapidamente, com novas oportunidade
 Para estudantes de Ciência da Computação, a mensagem é clara: capacitem-se nas tecnologias de IA, mas nunca percam de vista o contexto humano onde elas se inserem. A responsabilidade de moldar um futuro no qual a IA beneficie a sociedade de forma ampla, justa e sustentável começa na formação, com uma compreensão profunda tanto dos aspectos técnicos quanto dos impactos sociais destas tecnologias.
 
 Como profissionais e cidadãos, temos o poder e a responsabilidade de direcionar o desenvolvimento da IA para expandir o bem-estar humano, reduzir desigualdades e responder aos grandes desafios sociais, ao invés de agravá-los. Essa jornada começa agora, nos anos de formação, com conhecimento, consciência ética e engajamento.
+
+---
+
+[Voltar para Ético]({{ '/etico/' | relative_url }}) | [Início]({{ '/' | relative_url }})
