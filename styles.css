@@ -164,6 +164,23 @@ section.active-section {
     transform: translateY(-2px);
 }
 
+/* Botões específicos por seção */
+.ethical-cta .cta-button {
+    background-color: var(--accent-color);
+}
+
+.ethical-cta .cta-button:hover {
+    background-color: #6d28d9;
+}
+
+.resources-cta .cta-button {
+    background-color: var(--secondary-color);
+}
+
+.resources-cta .cta-button:hover {
+    background-color: #059669;
+}
+
 /* Cards na Página Inicial */
 .overview h3 {
     text-align: center;
@@ -337,6 +354,29 @@ section h2 {
     margin-bottom: 0;
     border-bottom: none;
     padding-bottom: 0;
+}
+
+/* Seção de Recursos e Ética */
+.ethical-content, .resources-container {
+    background-color: var(--white);
+    border-radius: var(--radius);
+    padding: 2rem;
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
+}
+
+.ethical-content ul, .resources-container ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.ethical-content li, .resources-container li {
+    margin-bottom: 0.5rem;
+}
+
+.ethical-cta, .resources-cta {
+    margin-top: 1.5rem;
 }
 
 /* Rodapé */
