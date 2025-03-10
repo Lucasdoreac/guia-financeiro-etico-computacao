@@ -1,3 +1,8 @@
+---
+layout: default
+title: Perfis Profissionais em Computação
+---
+
 # Perfis Profissionais em Computação
 
 Este documento detalha os diversos perfis profissionais em computação, com ênfase em competências, trajetória acadêmica e impacto social. Projetado especialmente para calouros, vai além das descrições tradicionais, integrando aspectos éticos e financeiros discutidos em outras seções do repositório.
@@ -269,3 +274,7 @@ Para calouros de Computação, recomendamos uma preparação que integre todos e
 - Mentorias
 
 A combinação destas dimensões proporcionará uma base sólida para qualquer carreira em computação, permitindo ao estudante tanto explorar diferentes caminhos quanto se especializar gradualmente, mantendo sempre a consciência do impacto social de seu trabalho e das perspectivas financeiras disponíveis em cada área.
+
+---
+
+[Voltar para Carreiras]({{ '/carreiras/' | relative_url }}) | [Início]({{ '/' | relative_url }})
