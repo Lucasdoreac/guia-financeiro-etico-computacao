@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      <p class="site-description">{{ site.description }}</p>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Início</a></li>
+          <li><a href="{{ '/financeiro/' | relative_url }}">Financeiro</a></li>
+          <li><a href="{{ '/etico/' | relative_url }}">Ético</a></li>
+          <li><a href="{{ '/carreiras/' | relative_url }}">Carreiras</a></li>
+          <li><a href="{{ '/recursos/' | relative_url }}">Recursos</a></li>
+          <li><a href="{{ '/sobre/' | relative_url }}">Sobre</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-content">
+    <div class="container">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Guia Financeiro e Ético para Carreiras em Computação - <a href="https://github.com/Lucasdoreac/guia-financeiro-etico-computacao">Repositório no GitHub</a></p>
+      <p>Licenciado sob a licença MIT</p>
+    </div>
+  </footer>
+</body>
+</html>
